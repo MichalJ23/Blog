@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-image: radial-gradient(circle, #b4acb5 0%, #739aea 100%);
+  height: 100%;
+}
+
+
+h1 {
+  margin: 1.2em;
+  font-size: 3em;
+  color: white;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: grey;
+    color: white;
+  }
+
+
+article {
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 2em;
+  color: white;
+  padding: 2em;
+  margin: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article h2 {
+  margin-bottom: 0.6em;
+}
+
+
+article footer {
+  margin-top: 1em;
+  text-align: justify;
+}
+
+
+main {
+  margin: 2em;
+}
+
+.stopka {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  margin-top: 50px;
+  height: 10px;
+  position: relative;
+  clear: both;
+}
+
+/* Strona tabela */
+
+.tabela {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 500px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+  
+}
+
+th, td {
+  background-color:rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 3px;
+}
+
+.kolumny td {
+  background-color:rgba(0, 0, 0, 0.65);
+  font-size: 2em;
+  padding: 5px;
+}
+
+tr :hover {
+  background-color:rgba(0, 0, 0, 0.85);
+}
+
+/* Strona z kontaktem */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: rgb(101, 101, 157);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #333;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Strona informacje */
+
+.informacje {
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: auto;
+  padding: 60px;
+  border-radius: 2em;
+}
+
+.informacje p {
+  margin-bottom: 80px;
+}
+
+.login-image {
+  height: 15px;
+  width: auto;
+  filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(152deg) brightness(100%) contrast(104%);
+}
+
+.specyfikacja {
+  color: aqua;
+}

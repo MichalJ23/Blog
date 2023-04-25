@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login">
+        <h1>Zaloguj się do panelu administratora</h1>
+        <form action="cms/cms_html/posty.html">
+            <div class="container">
+                <label for="uname"><b>Login</b></label>
+                <input type="text" placeholder="Wpisz login" name="uname" required>
+
+                <label for="psw"><b>Hasło</b></label>
+                <input type="password" placeholder="Wpisz hasło" name="psw" required>
+
+                <button type="submit">Zaloguj</button>
+                <br>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Zapamiętaj hasło
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <a href="#">Przypomnij hasło</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

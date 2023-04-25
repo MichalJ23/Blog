@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle, #b4acb5 0%, #739aea 100%);
+}
+
+.active {
+    background-color: #333;
+}
+
+  
+  ul {
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .panel {
+        float: left;
+        font-size: 1.9em;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    .nav-bar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      height: 30px;
+    }
+    
+  
+    .active {
+      background-color: grey;
+      color: white;
+    }
+
+    .logout {
+        background-color: red;
+    }
+  
+    .sidenav {
+        height: 100%;
+        position: absolute;
+        width: 150px;
+        z-index: 1;
+        left: 0;
+        background-color: rgb(87, 87, 87);
+        padding-top: 20px;
+        color: white;
+        text-decoration: none;
+      }
+
+    .sidenav ul {
+        background-color: rgb(87, 87, 87);
+        margin-top: 50px;
+    }
+
+    .sidenav li a {       
+        text-decoration: none;
+        display: block;
+        padding: 16px;
+        background-color: rgb(198, 198, 198);
+        border: solid black 2px;
+        width: 130px;
+    }
+
+    /* Posty */
+    .tabela {
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      height: 500px;
+      margin-top: 50px;
+    }
+    
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      background-color:rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      font-size: 1.2em;
+      padding: 3px;
+    }
+    
+    .kolumny td {
+      background-color:rgba(0, 0, 0, 0.65);
+      font-size: 2em;
+      padding: 2px;
+    }
+    
+    tr :hover {
+      background-color:rgba(0, 0, 0, 0.85);
+    }
+
+    .btn {
+      background-color: rgb(130, 73, 73);
+      color: wheat;
+      font-size: 20px;
+      border-radius: 3px;
+      padding: 7px;
+    }
+    .btn:hover {
+      background-color: #739aea;
+      cursor: pointer;
+    }
+
+/* Statystyki */
+
+.statystyki {
+  margin-left: px;
+}
+
+.pie {
+  margin: 15vmin auto;
+  border-radius: 50%;
+  width: 60vmin;
+  height: 60vmin;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: linear-gradient(-21deg, #93324c 50%, transparent 50%), linear-gradient(to right, #93324c 50%, #36b745 50%);
+}
+
+
+.kobiety {
+  margin: 10vmin 0 0 35vmin;
+}
+
+.mezczyzni {
+  margin: 25vmin;
+}
+
+
+/* Profil */
+
+.profil {
+  background-color: #9f8282;
+  margin: auto;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-left: 35%;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 20em;
+  align-items: center;
+}
+
+.profil .dane {
+  line-height: 50px;
+  text-align: center;
+}
